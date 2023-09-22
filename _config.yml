@@ -1,9 +1,9 @@
 # Site settings
-title: PHOTORAMA
+title: JANINGERS PHOTOBOX
 email: ""
 description: "Photo Journal"
-url: "https://sunbliss.github.io"
-baseurl: "/photorama"
+url: "https://mingersming.github.io"
+baseurl: "/janingers-photobox"
 facebook_username: ""
 twitter_username: ""
 instagram_username: ""
@@ -12,7 +12,7 @@ deviantart_username: ""
 flickr_username: ""
 discus_shortname: ""
 share: true
-
+# https://mingersming.github.io/janingers-photobox
 # Owner/author information
 owner:
   name:   photorama
@@ -33,9 +33,9 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "https://sunbliss.github.io/photorama/gallery/"  
-  - JOURNAL: "https://sunbliss.github.io/photorama/journal/"
-  - ABOUT: "https://sunbliss.github.io/photorama/about/"
+  - GALLERY: "https://mingersming.github.io/janingers-photobox/gallery/"  
+  - JOURNAL: "https://mingersming.github.io/janingers-photobox/journal/"
+  - ABOUT: "https://mingersming.github.io/janingers-photobox/about/"
 
 # All translation keys
 translations:
