@@ -15,7 +15,7 @@ share: true
 # https://mingersming.github.io/janingers-photobox
 # Owner/author information
 owner:
-  name:   photorama
+  name:   Stephan Ensminger
   avatar: avatar.png
   favicon: favicon.ico
   info: photography website template
@@ -35,7 +35,7 @@ comments :
 nav:
   - GALLERY: "https://mingersming.github.io/janingers-photobox/gallery/"  
   - JOURNAL: "https://mingersming.github.io/janingers-photobox/journal/"
-  - Über: "https://mingersming.github.io/janingers-photobox/about/"
+  - ABOUT: "https://mingersming.github.io/janingers-photobox/about/"
 
 # All translation keys
 translations:
