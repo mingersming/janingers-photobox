@@ -34,9 +34,9 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "https://mingersming.github.io/janingers-photobox/Galerie/"  
-  - JOURNAL: "https://mingersming.github.io/janingers-photobox/journal/"
-  - ABOUT: "https://mingersming.github.io/janingers-photobox/Über_mich/"
+  - GALERIE: "https://mingersming.github.io/janingers-photobox/Galerie/"  
+  # - JOURNAL: "https://mingersming.github.io/janingers-photobox/journal/"
+  - ÜBER: "https://mingersming.github.io/janingers-photobox/Über_mich/"
 
 # All translation keys
 translations:
