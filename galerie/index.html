@@ -6,41 +6,59 @@ active: galerie
 header-img: "img/gallery-bg.jpg"
 images:
  - image_path: /galerie/albums/alb01.jpg
-   <!-- gallery-folder: /galerie/gallery01/ -->
+   gallery-folder: /galerie/gallery01/
    gallery-name: Felsenkeller Leipzig
    gallery-date: Oktober 2023
+   caption: IMAGE TITLE
+   copyright: © photorama
  - image_path: /galerie/albums/alb02.jpg
-   <!-- gallery-folder: /galerie/gallery02/ -->
+   gallery-folder: /galerie/gallery02/
    gallery-name: gallery2
    gallery-date: June 2015
+   caption: IMAGE TITLE
+   copyright: © photorama
  - image_path: /galerie/albums/alb03.jpg
-   <!-- gallery-folder: /galerie/gallery03/ -->
+   gallery-folder: /galerie/gallery03/
    gallery-name: gallery3
    gallery-date: May 2015
+   caption: IMAGE TITLE
+   copyright: © photorama
  - image_path: /galerie/albums/alb04.jpg
-   <!-- gallery-folder: /galerie/gallery04/ -->
+   gallery-folder: /galerie/gallery04/
    gallery-name: gallery4
    gallery-date: April 2015
+   caption: IMAGE TITLE
+   copyright: © photorama
  - image_path: /galerie/albums/alb05.jpg
-   <!-- gallery-folder: /galerie/gallery05/ -->
+   gallery-folder: /galerie/gallery05/
    gallery-name: Weihnachtsfeier UKH
    gallery-date: Dezember 2023
+   caption: IMAGE TITLE
+   copyright: © photorama
  - image_path: /galerie/albums/alb06.jpg
-   <!-- gallery-folder: /galerie/gallery06/ -->
+   gallery-folder: /galerie/gallery06/
    gallery-name: gallery6
    gallery-date: February 2015
+   caption: IMAGE TITLE
+   copyright: © photorama
  - image_path: /galerie/albums/alb07.jpg
-   <!-- gallery-folder: /galerie/gallery07/ -->
+   gallery-folder: /galerie/gallery07/
    gallery-name: gallery7
    gallery-date: January 2015
+   caption: IMAGE TITLE
+   copyright: © photorama
  - image_path: /galerie/albums/alb08.jpg
-   <!-- gallery-folder: /galerie/gallery08/ -->
+   gallery-folder: /galerie/gallery08/
    gallery-name: gallery8
    gallery-date: December 2014
+   caption: IMAGE TITLE
+   copyright: © photorama
  - image_path: /galerie/albums/alb09.jpg
-   <!-- gallery-folder: /galerie/gallery09/ -->
+   gallery-folder: /galerie/gallery09/
    gallery-name: gallery9
    gallery-date: November 2014
+   caption: IMAGE TITLE
+   copyright: © photorama
 ---
 
 <html class="no-js" lang="en">
@@ -66,7 +84,10 @@ images:
                          <figure class="effect-selena">
 					<header class='gallery-icon'>
 		       
-<a href="{{ site.url }}{{ site.baseurl }}{{ image.gallery-folder }}">
+<!-- <a href="{{ site.url }}{{ site.baseurl }}{{ image.gallery-folder }}"> -->
+<!-- <img src="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}"></a> -->
+
+<a href="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}" class="popup" title="{{ image.caption }}" data-caption="{{ image.copyright }}">
 <img src="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}"></a>
 
 					</header>	
