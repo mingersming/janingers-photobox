@@ -2,9 +2,8 @@
 title: JANINGERS PHOTOBOX
 email: ""
 description: "Photo Journal"
-# url: "https://fotobox-für-halle.de"
-url: "https://mingersming.github.io/janingers-photobox"
-# baseurl: "/janingers-photobox"
+url: "https://mingersming.github.io"
+baseurl: "/janingers-photobox"
 facebook_username: ""
 twitter_username: ""
 instagram_username: ""
